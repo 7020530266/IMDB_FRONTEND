@@ -58,7 +58,7 @@ function Login() {
 
   return (
     <>
-      <div className="container-fluid wallpaper">
+      <div className="container-fluid set wallpaper">
         <div className="login-wrapper ">
           <h1>IMDB.com</h1>
           <p>Login to Continue</p>

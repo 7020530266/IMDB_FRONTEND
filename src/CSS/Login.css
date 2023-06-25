@@ -1,7 +1,7 @@
 
 *{margin: 0; padding:0; box-sizing: border-box;overflow: hidden!important;}
 
-.container-fluid{
+.set{
   overflow: hidden!important; 
   height:100vh;
   width:100vw;
