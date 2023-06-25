@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Navigate, Route, Routes } from "react-router-dom";
+import "./App.css";
+import Forgot from "./LoginComponents/Forgot";
+import ForgotReq from "./LoginComponents/ForgotReq";
+import Login from "./LoginComponents/Login";
+import Register from "./LoginComponents/Register";
+import RegisterReq from "./LoginComponents/RegisterReq";
+import MovieAdmin from "./MovieAdmin";
+import AddMovie from "./AddMovie";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     
+          <Routes>
+            <Route path="/" element={<Login />} />
+            <Route path="/Forgot" element={<Forgot />} />
+            <Route path="/ForgotReq" element={<ForgotReq />} />
+            <Route path="/Register" element={<Register />} />
+            <Route path="/RegisterReq" element={<RegisterReq />} />
+            <Route path="/MovieAdmin" element={<MovieAdmin />} />
+            <Route path="/AddMovie" element={<AddMovie />} />
+          </Routes>
+          
   );
 }
 

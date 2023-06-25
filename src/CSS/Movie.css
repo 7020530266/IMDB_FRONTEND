@@ -1,0 +1,54 @@
+
+  
+  *{margin:0; padding:0;box-sizing: border-box;overflow:visible!important;}
+
+  .navbar-brand{
+
+    color: rgb(237, 59, 19)! important;
+  }
+
+/* TaskTable */
+
+.wall {
+ 
+}
+
+.taskTable{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ margin:4rem 2rem 0 2rem;
+ height:auto
+}
+
+.taskTable h1{
+
+  margin-top: 3rem;
+  color:blue;
+ 
+}
+
+table{
+    text-align:center;
+}
+
+.pb{
+  margin:2rem
+}
+
+.row1{
+  display:flex;
+  
+}
+
+.row1 button{
+  margin:2rem 2rem 2rem 2rem
+}
+
+Form{
+  width:80%
+}
+
+
+
