@@ -1,5 +1,5 @@
 const env = {
-    apiurl: "http://localhost:3000"
+    apiurl: "https://imdb-backend-jqps.onrender.com"
 }
 
 export default env;
