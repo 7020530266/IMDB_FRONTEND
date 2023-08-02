@@ -2,6 +2,15 @@
   
   *{margin:0; padding:0;box-sizing: border-box;overflow:visible!important;}
 
+/* .container-fluid{
+  height:4rem !important
+} */
+
+.high{
+  height:3rem
+}
+
+  
   .navbar-brand{
 
     color: rgb(237, 59, 19)! important;
@@ -9,18 +18,22 @@
 
 /* TaskTable */
 
-.wall {
- 
-}
-
 .taskTable{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
  margin:4rem 2rem 0 2rem;
- height:auto
+ height:auto;
+ text-align: center;
+
+ 
 }
+Table{
+  width:5rem
+}
+
+
 
 .taskTable h1{
 
@@ -29,16 +42,17 @@
  
 }
 
-table{
-    text-align:center;
-}
 
+                                    
 .pb{
   margin:2rem
 }
 
 .row1{
   display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   
 }
 
